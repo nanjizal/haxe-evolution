@@ -13,7 +13,7 @@ When using a ```while``` to simulate complex loops from other languages it can b
 To enable all viables related to the while loop logic, remain locally contained like the ```i``` used in a ```for(i in iterator)```.
 
 My revelaton was the limitation of current blocks - you can't break or return early even though blocks are currently an expression.
-```
+```Haxe
 // valid haxe 
 var i: Int = { 1 };
 ```
